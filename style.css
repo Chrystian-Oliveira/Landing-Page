@@ -16,13 +16,13 @@ body {
 main {
     width: 1900px;
     position: relative;
-    background-color: white;
+    background-color: #F8EEEE;
     margin: auto;
 }
 
 header {
     height: 13.7em;
-    max-width: 1920px;
+    width: 1920px;
     background-color: #F8EEEE;
     display: flex;
     justify-content: space-between;
@@ -107,10 +107,10 @@ h2 {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-weight: 500;
     font-family: "Inter", sans-serif;
-    margin-bottom: 70px;
-    font-size: 32px;
-    width: 500px;
-    height: 38px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    width: 475px;
+    height: 70px;
 }
 
 p {
@@ -171,5 +171,82 @@ p {
     height: 287px;
     bottom: -36em;
     left: 7em;
+}
+
+/* ----------------------------------------------------------------------------------------- */
+
+@media (max-width: 1366px) {
+
+    header {
+        height: 16em;  
+    }
+
+    .logo {
+        padding-top: 1em;
+    }
+
+    ul {
+        padding-right: 5em;
+        padding-top: 5em;
+    }
+
+    a {
+        width: 300px;
+        height: 70px;
+        font-size: 30px;
+    }
+
+    .elipse {
+        width: 35em;
+    }
+
+    .filha {
+        width: 42vw;
+        height: 100vh;
+    }
+
+    .sobre-1 {
+        right: 15em;
+        top: 0em;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    p {
+        font-size: 30px;
+    }
+
+    .complemento {
+        width: 450px;
+    }
+
+    .jeans-escuro {
+        top: 25em;
+        right: 4em;
+        width: 380px;
+        height: 462px;
+    }
+
+    .jeans-claro {
+        top: 25em;
+        right: 4em;
+        width: 380px;
+        height: 462px;
+    }
+
+    .saia-marrom {
+        width: 250px;
+        height: 312px;
+        bottom: -30em;
+    }
+
+    .conjunto-leve {
+        width: 250px;
+        height: 312px;
+        bottom: -42em;
+        left: 8em;
+    }
 }
 
