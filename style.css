@@ -130,8 +130,12 @@ p {
 
 .grupo-2 {
     position: absolute;
-    top: 0em;
-    left: 0em;
+    top: 1em;
+    left: 1em;
+}
+
+.complemento {
+    width: 400px;
 }
 
 .jeans-claro {
